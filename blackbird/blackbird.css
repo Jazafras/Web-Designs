@@ -1,0 +1,108 @@
+/*Blackbird Assignment by Jasmine Emerson*/
+
+footer {
+  font-weight: bold;
+  text-align: right;
+  clear: right;
+  color: white;
+  background: grey;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+body {
+  background: black;
+  background: url("images/blackbird_bg2.jpg") no-repeat center center fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header {
+  font-family: Buda, Arya, tahoma, arial, helvetica, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  opacity: 1;
+}
+
+figcaption {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#bio {
+  color: black;
+  background: grey;
+  background: grey;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  
+}
+
+#biopic {
+  display: block;
+  float: right;
+  padding: 0;
+  text-align: center;
+  /*position: absolute;
+  bottom: 0px;
+  right: 50px;*/
+}
+
+#biopic img {
+  width: 85%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  
+}
+
+#container {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 10px;
+  background: #fff;
+  opacity: .95;
+}
+
+#jasmine {
+	font-style: italic;
+	font-size: 1em;
+	color: white;
+}
+
+.stanza {
+  font-family: 'caviar_dreamsregular', georgia, "times new roman", times, serif;
+  border: 3px solid black;
+  width: 275px;
+  /*height 200px;*/
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px 15px 15px;
+  background: grey;
+  opacity: 1.0;
+}

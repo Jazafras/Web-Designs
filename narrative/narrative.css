@@ -1,0 +1,112 @@
+/*Jasmine Emerson*/
+
+
+body {
+  margin:0;
+  padding:0;
+  background: black;
+  background: url("images/darkness.jpg") no-repeat center center fixed;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+ .media {
+  text-align: center;
+}
+ .nav {
+	 top: 0;
+	 width:100%;
+	 z-index: 1;
+ }
+ 
+.nav ul {
+  list-style: none;
+  background-color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+    margin:0;
+  padding:0;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  color: #5f005f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+#container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+background: -moz-linear-gradient(left, rgba(63,63,63,0) 0%, rgba(63,63,63,0.04) 1%, rgba(63,63,63,0.76) 19%, rgba(63,63,63,1) 25%, rgba(63,63,63,1) 50%, rgba(63,63,63,1) 75%, rgba(63,63,63,0.92) 77%, rgba(63,63,63,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(63,63,63,0) 0%,rgba(63,63,63,0.04) 1%,rgba(63,63,63,0.76) 19%,rgba(63,63,63,1) 25%,rgba(63,63,63,1) 50%,rgba(63,63,63,1) 75%,rgba(63,63,63,0.92) 77%,rgba(63,63,63,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(63,63,63,0) 0%,rgba(63,63,63,0.04) 1%,rgba(63,63,63,0.76) 19%,rgba(63,63,63,1) 25%,rgba(63,63,63,1) 50%,rgba(63,63,63,1) 75%,rgba(63,63,63,0.92) 77%,rgba(63,63,63,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003f3f3f', endColorstr='#003f3f3f',GradientType=1 ); /* IE6-9 */}
+
+#container img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  
+}
+
+header {
+	  background: black 
+	}
+
+#title img {
+   width: 70%;
+   height: auto;
+}
+
+@media screen and (min-width: 600px) { 
+  .nav li {
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+    width: 100px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  .nav li {
+    display: inline-block;
+  }
+  
+
+  #container img {
+	width: 80%;
+	padding: 0;
+	margin: 0;
+	padding-bottom: -50px;
+}
+  #title img {
+	width: 40%;
+	height: auto;
+}
+}	
+}
